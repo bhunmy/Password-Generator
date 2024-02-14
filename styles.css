@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  #generateBtn {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  #passwordDisplay {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+    text-align: center;
+    line-height: 100px; /* Adjust this value to vertically center the text */
+  }
+  
+  #copyBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #copyBtn:hover {
+    background-color: #45a049;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #passwordDisplay {
+      width: 90%;
+    }
+  }
+  

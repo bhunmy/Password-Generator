@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <button id="generateBtn">Generate Password</button>
+    <br><br>
+    <textarea id="passwordDisplay" readonly></textarea>
+    <br>
+    <button id="copyBtn">Copy Password</button>
+    <!-- Additional info for the user -->
+    <p style="text-align: left;">Info for User:</p>
+    <ul style="text-align: left;">
+      <li>Length of password: At least 8 characters but no more than 128.</li>
+      <li>Include uppercase characters: Yes/No</li>
+      <li>Include lowercase characters: Yes/No</li>
+      <li>Include numbers: Yes/No</li>
+      <li>Include special characters: Yes/No</li>
+    </ul>
+    <hr>
+    <footer>&copy; All rights reserved | Bunmi's program 2024</footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
