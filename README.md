@@ -2,7 +2,7 @@
 This portfolio showcase an application to generate random  password
 # Password Generator
 
-This is a simple web-based password generator that allows users to specify the length of the password and select the types of characters to include. The generated password is displayed either in an alert or on the web page itself.
+This is a simple web-based password generator that allows users to specify the length of the password and select the types of characters to include. The generated password is displayed either in an alert on the web page itself.
 
 ## How to Use
 
@@ -15,6 +15,7 @@ This is a simple web-based password generator that allows users to specify the l
 ![alt text](image-1.png) ![alt text](image-2.png)![alt text](image-3.png)
 
 4. Once you've made your selections, a password will be generated and displayed in an alert.
+![alt text](image-4.png)
 
 5. Click on the copy password to copy the generated password.
 
